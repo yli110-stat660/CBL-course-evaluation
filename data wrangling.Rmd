@@ -3,3 +3,10 @@ title: "CBL course evaluation data wrangling"
 output: html_notebook
 ---
 
+The instructor gave a test to six classes of students before the CBL course.
+```{r}
+library(readxl)
+pre_CBL_performance <- read_excel("pre-CBL performance.xlsx")
+View(pre_CBL_performance)
+```
+
