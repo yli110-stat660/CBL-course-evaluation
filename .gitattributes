@@ -1,3 +1,1 @@
-* linguist-vendored
-
-*.rb linguist-lanuage=SAS
+cbl_performance.sas linguist-generated=true
